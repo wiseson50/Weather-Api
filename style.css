@@ -1,0 +1,51 @@
+body{
+    display: grid;
+    grid-template-areas: 200px 100px 100px 100px;
+    grid-template-rows: auto; 
+    grid-template-areas:
+    'h1 h1 h1 h1' 
+    'input input input input'
+    'main main main main'
+    'table table table table'
+    
+    ;
+    
+    justify-content: center;
+
+    grid-row-gap: 2rem;
+    padding-top: 1.5rem;
+
+   background-color: #232abc; 
+   color: #ff4;
+}
+
+main{
+    padding: 1rem;
+}
+
+table {
+    padding: 1rem;
+}
+
+tr, td  {
+    padding: 1rem;
+    /* background-color: blue; */
+}
+
+li {
+    padding: 1rem;
+    /* background-color: black; */
+}
+
+/* .item-a {
+  grid-area: h1;
+}
+.item-b {
+  grid-area: input;
+}
+.item-c {
+  grid-area: main;
+}
+.item-d {
+  grid-area: table;
+} */
